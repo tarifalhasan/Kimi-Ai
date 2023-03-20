@@ -18,7 +18,8 @@ const ASIConomics = () => {
       </div>
       <div className="relative">
         {/* Card Center */}
-        <div className="flex w-full absolute top-[40%] z-20 justify-between">
+
+        <div className="absolute top-[40%] right-0">
           <div className="card-shadow max-h-[110px] rounded-xl bg-white p-5 w-[260px]">
             <h4 className="text-[14px] text-skin-dark ">
               <span className="text-[#2476FF] ">14% </span> of all mined coins
@@ -26,6 +27,8 @@ const ASIConomics = () => {
               rental.
             </h4>
           </div>
+        </div>
+        <div className="absolute top-[40%] left-0">
           <div className="card-shadow max-h-[110px] rounded-xl bg-white p-5 w-[260px]">
             <h4 className="text-[14px] text-skin-dark ">
               The <span className="text-[#2476FF] ">3% </span> received fees
@@ -34,21 +37,18 @@ const ASIConomics = () => {
             </h4>
           </div>
         </div>
-        <div className="flex z-20 flex-col gap-y-[200px] -top-[22%] absolute left-[32%] right-1/2 w-full justify-between">
-          {/* Card Top Bottom */}
-          <div className="card-shadow max-h-[110px] rounded-xl bg-white p-5 w-[260px]">
-            <h4 className="text-[14px] text-skin-dark ">
-              Up to <span className="text-[#2476FF] ">$400,000 </span> will be
-              invested by the founders of the project to host the first 100
-              ASICs in 2023 Q3.
-            </h4>
-          </div>
-          <div className="card-shadow max-h-[110px] rounded-xl bg-white p-5 w-[260px]">
-            <h4 className="text-[14px] text-skin-dark ">
-              <span className="text-[#2476FF] ">40% </span>of the presale will
-              be used to purchase mining hardware in 2023 Q4.
-            </h4>
-          </div>
+        <div className="absolute -top-[15%] left-[10%]  card-shadow max-h-[110px] rounded-xl bg-white p-5 w-[260px]">
+          <h4 className="text-[14px] text-skin-dark ">
+            Up to <span className="text-[#2476FF] ">$400,000 </span> will be
+            invested by the founders of the project to host the first 100 ASICs
+            in 2023 Q3.
+          </h4>
+        </div>
+        <div className="card-shadow absolute left-[33%] -bottom-[33%] max-h-[110px] rounded-xl bg-white p-5 w-[260px]">
+          <h4 className="text-[14px] text-skin-dark ">
+            <span className="text-[#2476FF] ">40% </span>of the presale will be
+            used to purchase mining hardware in 2023 Q4.
+          </h4>
         </div>
         <div className="absolute -z-10 top-0 flex justify-center left-0 right-0">
           <img src="/image/roket.png" alt="tarif" />
