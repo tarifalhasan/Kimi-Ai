@@ -19,7 +19,7 @@ const ASIConomics = () => {
       <div className="relative">
         {/* Card Center */}
 
-        <div className="absolute top-[40%] right-0">
+        <div className="absolute top-[40%] -right-[3%]">
           <div className="card-shadow max-h-[110px] rounded-xl bg-white p-5 w-[260px]">
             <h4 className="text-[14px] text-skin-dark ">
               <span className="text-[#2476FF] ">14% </span> of all mined coins
@@ -37,7 +37,7 @@ const ASIConomics = () => {
             </h4>
           </div>
         </div>
-        <div className="absolute -top-[15%] left-[10%]  card-shadow max-h-[110px] rounded-xl bg-white p-5 w-[260px]">
+        <div className="absolute -top-[15%] left-[33%]  card-shadow max-h-[110px] rounded-xl bg-white p-5 w-[260px]">
           <h4 className="text-[14px] text-skin-dark ">
             Up to <span className="text-[#2476FF] ">$400,000 </span> will be
             invested by the founders of the project to host the first 100 ASICs
