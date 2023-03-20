@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;500;600;700;800&display=swap');
+
+.nav-link {
+  font-family: 'Satoshi-Medium';
+}
+.features {
+  font-family: 'Satoshi-Medium';
+}
+select#Select\ service {
+  outline: none;
+
+  background: url(../public//image/down-arrow.svg) no-repeat right;
+  -webkit-appearance: none;
+  background-position-x: 99%;
+}
