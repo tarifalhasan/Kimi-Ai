@@ -2,12 +2,15 @@ import React from 'react';
 
 const Roadmap = () => {
   return (
-    <section className="bg-white relative mb-16 py-16 ">
+    <section
+      id="howtobuy?"
+      className="bg-white hidden md:block relative mb-16 py-16 "
+    >
       <h2 className="text-skin-dark py-10 text-[2em] leading-[40px] text-center">
         Roadmap
       </h2>
 
-      <div className="container  flex justify-between px-5 lg:px-[260px]">
+      <div className="container  flex justify-between px-5 xl:px-[260px]">
         <div className="basis-[40%]  relative flex flex-col justify-between">
           <div className="absolute left-[40%] top-[9%]">
             <h2 className="text-2xl text-skin-dark font-semibold">2023 Q3</h2>

@@ -2,12 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background: linear-gradient(0deg, #e9e9f9 0.76%, rgba(225, 226, 255, 0) 100%);
-}
 @layer base {
   body {
-    @apply text-[1em] font-Outfit bg-[#F2F9FF] overflow-x-hidden;
+    @apply text-[1em] font-Outfit bg-[#F2F9FF] bg-opacity-60 overflow-x-hidden;
   }
 }
 @layer components {
@@ -31,6 +28,13 @@ body {
     box-shadow: 0px 22px 37px rgba(108, 61, 244, 0.04);
   }
   .hero-gradient {
+    background: linear-gradient(
+      0deg,
+      #e9e9f9 0.76%,
+      rgba(225, 226, 255, 0) 100%
+    );
+  }
+  .body-bg {
     background: linear-gradient(
       0deg,
       #e9e9f9 0.76%,

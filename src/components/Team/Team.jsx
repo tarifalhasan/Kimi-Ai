@@ -3,7 +3,7 @@ import { TeamData } from '../../constant/data';
 
 const Team = () => {
   return (
-    <section className="bg-white mb-16 relative">
+    <section id="aboutus" className="bg-white mb-16 relative">
       <div className="container px-5 py-8">
         <div className="text-center">
           <h2 className="text-[2em] font-semibold leading-[2.5em] text-skin-dark">

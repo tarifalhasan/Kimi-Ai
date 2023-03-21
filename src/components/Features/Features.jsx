@@ -7,8 +7,8 @@ import icon3 from '../../../public/image/Features/plant.png';
 import icon4 from '../../../public/image/Features/centralized.png';
 const Features = () => {
   return (
-    <section className="relative">
-      <div className="flex flex-col lg:flex-row container pb-16 px-10 items-center justify-between">
+    <section id="whitepaper" className="relative">
+      <div className="flex flex-col xl:flex-row  container pb-16 px-10 items-center justify-between">
         <div className="basis-[40%] space-y-2">
           <h2 className="text-xl lg:text-4xl font-body text-skin-dark">
             Our Features
@@ -22,9 +22,9 @@ const Features = () => {
           </button>
         </div>
 
-        <div className="basis-[55%] relative gap-10  flex flex-col  ">
-          <div className="flex flex-col lg:flex-row z-10 gap-5">
-            <div className="flex gap-5 flex-row lg:flex-col ">
+        <div className="basis-[55%] h-full relative gap-10  flex flex-col  ">
+          <div className="grid grid-cols-1  z-10 gap-5">
+            <div className="grid grid-cols-1 gap-5 xl:grid-cols-2 ">
               <Card
                 icon={icon1}
                 title="Invest in Mining"
@@ -39,7 +39,7 @@ const Features = () => {
                 subTitle="Regardless of the dynamics of Bitcoin, due to the internal ecosystem and fees charged when making transactions with $KIMI, ASIC purchases are planned quarterly."
               />
             </div>
-            <div className="flex mt-0 lg:mt-16 gap-5 flex-row lg:flex-col">
+            <div className="grid grid-cols-1 xl:grid-cols-2 gap-5 ">
               <Card
                 icon={icon3}
                 title="Completely Eco Friendly"

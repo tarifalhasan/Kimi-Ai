@@ -14,12 +14,14 @@ import {
   Footer,
   ASIConomics,
   Features,
+  MobileMenu,
 } from './components';
 
 function App() {
   return (
     <>
       <Header />
+      <MobileMenu />
       <Hero />
       <Statics />
       <Features />

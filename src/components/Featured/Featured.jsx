@@ -7,7 +7,7 @@ const Featured = () => {
         <h4 className="text-center text-base text-[#836E8C] features">
           Featured In
         </h4>
-        <div className="flex justify-between mt-4  ">
+        <div className="grid grid-cols-2 gap-5 mt-3 md:grid-cols-3 lg:grid-cols-6 place-items-center ">
           {FeaturedData.map((data, i) => (
             <div
               key={i}

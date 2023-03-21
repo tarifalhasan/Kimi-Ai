@@ -3,7 +3,7 @@ import Form from './Form';
 
 const SignUp = () => {
   return (
-    <section className="text-gray-600 body-font relative">
+    <section id="newtocrypto?" className="text-gray-600 body-font relative">
       <div className="container px-5 lg:px-[100px]  mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-[60%] md:w-1/2  rounded-lg overflow-hidden sm:mr-10 flex items-center justify-start relative">
           <div>

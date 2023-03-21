@@ -3,9 +3,12 @@ import ConnectWallet from './ConnectWallet';
 
 const Hero = () => {
   return (
-    <section className="hero-gradient text-gray-600 body-font">
-      <div className="container mx-auto flex px-10 py-16 md:flex-row flex-col ">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+    <section
+      id="home"
+      className="hero-gradient relative text-gray-600 body-font"
+    >
+      <div className="container mx-auto grid place-items-center grid-cols-1 xl:grid-cols-12 px-10 py-16 ">
+        <div className="col-span-7">
           <h1 className="title-font  sm:text-5xl text-3xl mb-4 font-bold font-Outfit text-gray-900">
             Meet the first Eco- <br className="hidden lg:block" /> Friendly
             token for <br className="hidden lg:block" /> Bitcoin Miners.
@@ -15,11 +18,11 @@ const Hero = () => {
             for each of the investors, regardless of their local legislation and
             the number of investments.
           </p>
-          <div className="flex justify-center">
+          <div className="flex justify-start">
             <button className="btn-ptimary">Whitepaper</button>
             <button className="ml-4 bnt-secondary shadow-md">More Info</button>
           </div>
-          <div className="flex gap-x-4 mt-16">
+          <div className="flex gap-x-4 my-11 xl:mt-16">
             <a href="http://" target="_blank" rel="noopener noreferrer">
               <div className="w-[40px] flex justify-center items-center h-[40px] rounded-full shadow-md bg-white">
                 <svg
@@ -111,7 +114,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg  relative lg:w-full md:w-1/2 w-5/6">
+        <div className="col-span-5 w-full relative ">
           <div className="z-10">
             <ConnectWallet />
           </div>
@@ -122,6 +125,20 @@ const Hero = () => {
             <img src="/image/hero_gradient.png" alt="" />
           </div>
         </div>
+      </div>
+      <div className="absolute top-[70%] left-0">
+        <img
+          className="w-[60%] opacity-30"
+          src="/bitcoin.png"
+          alt="lithurium.png"
+        />
+      </div>
+      <div className="absolute top-[70%] right-0">
+        <img
+          className="w-[70%] opacity-30"
+          src="/lithurium.png"
+          alt="lithurium.png"
+        />
       </div>
     </section>
   );

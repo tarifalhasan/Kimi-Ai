@@ -9,11 +9,13 @@ import SignUp from './SignUp/SignUp';
 import Footer from './Footer/Footer';
 import ASIConomics from './ASIConomics/ASIConomics';
 import Features from './Features/Features';
+import MobileMenu from './Header/MobileHeader';
 export {
   Header,
   Hero,
   Statics,
   Featured,
+  MobileMenu,
   Team,
   Faq,
   Roadmap,

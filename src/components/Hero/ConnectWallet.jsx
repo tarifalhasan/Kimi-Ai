@@ -2,7 +2,7 @@ import React from 'react';
 
 const ConnectWallet = () => {
   return (
-    <div className="bg-[#ffff] py-8 rounded-lg feature-card-shadow lg:w-[80%] ">
+    <div className="bg-[#ffff] m-auto py-8 rounded-lg feature-card-shadow lg:w-[80%] ">
       <div className="text-center mb-3 ">
         <h4 className="text-lg text-skin-dark font-medium">
           CLAIM UP TO 100% PRESALE BONUS

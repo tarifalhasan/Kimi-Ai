@@ -3,7 +3,7 @@ import React from 'react';
 const Card = ({ icon, title, subTitle }) => {
   return (
     <div
-      className={`  w-[323px]  p-4 bg-white  h-[286px] rounded-xl feature-card-shadow`}
+      className={` w-auto   p-4 bg-white  h-[286px] rounded-xl feature-card-shadow`}
     >
       <img src={`${icon}`} alt="" />
       <div className="mt-5">
