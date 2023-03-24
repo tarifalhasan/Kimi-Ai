@@ -1,16 +1,16 @@
 import React from 'react';
 import { featuresData } from '../../constant/data';
 import Card from './Card';
-import icon1 from '../../../public/image/Features/pickaxe.png';
-import icon2 from '../../../public/image/Features/world.png';
-import icon3 from '../../../public/image/Features/plant.png';
-import icon4 from '../../../public/image/Features/centralized.png';
+import icon1 from '/image/Features/pickaxe.png';
+import icon2 from '/image/Features/world.png';
+import icon3 from '/image/Features/plant.png';
+import icon4 from '/image/Features/centralized.png';
 const Features = () => {
   return (
     <section id="whitepaper" className="relative">
       <div className="flex flex-col xl:flex-row  container pb-16 px-10 items-center justify-between">
-        <div className="basis-[40%] space-y-2">
-          <h2 className="text-xl lg:text-4xl font-body text-skin-dark">
+        <div className="basis-[35%] space-y-2">
+          <h2 className="text-xl lg:text-4xl font-Outfit font-semibold text-skin-dark">
             Our Features
           </h2>
           <p className="text-[#836E8C] lg:w-[80%] font-medium text-lg">
@@ -22,9 +22,9 @@ const Features = () => {
           </button>
         </div>
 
-        <div className="basis-[55%] h-full relative gap-10  flex flex-col  ">
-          <div className="grid grid-cols-1  z-10 gap-5">
-            <div className="grid grid-cols-1 gap-5 xl:grid-cols-2 ">
+        <div className="basis-[60%] h-full relative gap-10  flex flex-col  ">
+          <div className="flex flex-col lg:flex-row  z-10 gap-5">
+            <div className="flex gap-5 flex-col">
               <Card
                 icon={icon1}
                 title="Invest in Mining"
@@ -39,7 +39,7 @@ const Features = () => {
                 subTitle="Regardless of the dynamics of Bitcoin, due to the internal ecosystem and fees charged when making transactions with $KIMI, ASIC purchases are planned quarterly."
               />
             </div>
-            <div className="grid grid-cols-1 xl:grid-cols-2 gap-5 ">
+            <div className="flex mt-16 flex-col gap-5 ">
               <Card
                 icon={icon3}
                 title="Completely Eco Friendly"

@@ -24,9 +24,9 @@ export const navLinks = [
     href: 'newtocrypto?',
   },
 ];
-import img1 from '../../public/image/Featured/1.png';
-import img2 from '../../public/image/Featured/2.png';
-import img3 from '../../public/image/Featured/3.png';
+import img1 from '/image/Featured/1.png';
+import img2 from '/image/Featured/2.png';
+import img3 from '/image/Featured/3.png';
 export const FeaturedData = [img1, img2, img3, img1, img3, img1];
 
 import albartimg from '/image/Team/Albert Delacroix.png';

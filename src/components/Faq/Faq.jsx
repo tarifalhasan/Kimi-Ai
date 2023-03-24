@@ -22,15 +22,14 @@ export default function Faq() {
         </div>
         <div className="py-10">
           <div className="faq">
-            {' '}
             <Accordion open={open === 1}>
               <AccordionHeader
-                className="font-medium text-lg capitalize text-skin-dark"
+                className=" text-lg font-Outfit font-semibold text-skin-dark capitalize "
                 onClick={() => handleOpen(1)}
               >
                 Why choose $KIMI?
               </AccordionHeader>
-              <AccordionBody className="text-base text-[#836E8C]">
+              <AccordionBody className="text-base font-normal font-Outfit text-[#836E8C]">
                 Kind Miners are a new footprint in the history of crypto! Due to
                 decentralization, we have simplified mining and done everything
                 for the user, now there is no need for permission from local
@@ -41,12 +40,12 @@ export default function Faq() {
             </Accordion>
             <Accordion open={open === 2}>
               <AccordionHeader
-                className="font-medium text-lg capitalize text-skin-dark"
+                className="font-Outfit font-semibold text-skin-dark text-lg"
                 onClick={() => handleOpen(2)}
               >
                 What hardware and mining pool is used?
               </AccordionHeader>
-              <AccordionBody className="text-base text-[#836E8C]">
+              <AccordionBody className="text-base font-normal font-Outfit text-[#836E8C]">
                 We&apos;re not always in the position that we want to be at.
                 We&apos;re constantly growing. We&apos;re constantly making
                 mistakes. We&apos;re constantly trying to express ourselves and
@@ -55,12 +54,12 @@ export default function Faq() {
             </Accordion>
             <Accordion open={open === 3}>
               <AccordionHeader
-                className="font-medium text-lg capitalize text-skin-dark"
+                className="font-Outfit font-semibold text-skin-dark text-lg"
                 onClick={() => handleOpen(3)}
               >
                 What hardware and mining pool is used?
               </AccordionHeader>
-              <AccordionBody className="text-base text-[#836E8C]">
+              <AccordionBody className="text-base font-normal font-Outfit text-[#836E8C]">
                 We&apos;re not always in the position that we want to be at.
                 We&apos;re constantly growing. We&apos;re constantly making
                 mistakes. We&apos;re constantly trying to express ourselves and
@@ -69,12 +68,12 @@ export default function Faq() {
             </Accordion>
             <Accordion open={open === 4}>
               <AccordionHeader
-                className="font-medium text-lg capitalize text-skin-dark"
+                className="font-Outfit font-semibold text-skin-dark text-lg"
                 onClick={() => handleOpen(4)}
               >
                 What will happen to unsold tokens during the presale?
               </AccordionHeader>
-              <AccordionBody className="text-base text-[#836E8C]">
+              <AccordionBody className="text-base font-normal font-Outfit text-[#836E8C]">
                 We&apos;re not always in the position that we want to be at.
                 We&apos;re constantly growing. We&apos;re constantly making
                 mistakes. We&apos;re constantly trying to express ourselves and
@@ -83,13 +82,13 @@ export default function Faq() {
             </Accordion>
             <Accordion open={open === 5}>
               <AccordionHeader
-                className="font-medium text-lg capitalize text-skin-dark"
+                className="font-Outfit font-semibold text-skin-dark text-lg"
                 onClick={() => handleOpen(5)}
               >
                 How many presale stages are there and what is the possible
                 bonus?{' '}
               </AccordionHeader>
-              <AccordionBody className="text-base text-[#836E8C]">
+              <AccordionBody className="text-base font-normal font-Outfit text-[#836E8C]">
                 We&apos;re not always in the position that we want to be at.
                 We&apos;re constantly growing. We&apos;re constantly making
                 mistakes. We&apos;re constantly trying to express ourselves and
